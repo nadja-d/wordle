@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let guessedWords = [[]];
     let availableSpace = 1;
 
-    let word = "widiw";
+    let word = "smngt";
     let guessedWordCount = 0;
 
     const keys = document.querySelectorAll(".keyboard-row button")
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
         guessedWordCount += 1;
 
         if(currentWord === word) {
-            window.alert("Congratulations!!");
+            window.alert("Congratulations, the word is semangat! Semangat with everything you are going through, you got this!");
         }
 
         if(guessedWords.length === 6) {
